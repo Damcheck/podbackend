@@ -1,0 +1,3 @@
+import { readSubmission, saveSubmission, validEmail } from '@/lib/submissions';
+export const runtime='nodejs';
+export async function POST(request:Request){try{const data=await readSubmission(request);if(!data||!validEmail(data.email)||typeof data.name!=='string'||!data.name.trim()||data.name.length>120||typeof data.message!=='string'||!data.message.trim()||data.message.length>5000)return Response.json({error:'Please provide your name, a valid email and a message.'},{status:400});await saveSubmission('contacts',{name:data.name.trim(),email:data.email.trim(),message:data.message.trim(),phone:typeof data.phone==='string'?data.phone.slice(0,80):''});return Response.json({ok:true});}catch{return Response.json({error:'Your request could not be saved.'},{status:503});}}

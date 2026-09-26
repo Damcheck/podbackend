@@ -1,0 +1,252 @@
+{
+  "mode": "Built-in image generation",
+  "generatedAt": "2026-09-25",
+  "assets": [
+    {
+      "name": "hero-woman",
+      "reference": "home",
+      "prompt": "Standalone grayscale profile with white headphones on pink background; generated from the home reference central cover.",
+      "file": "hero-woman.png"
+    },
+    {
+      "name": "hero-leader",
+      "reference": "home",
+      "prompt": "Use case: photorealistic-natural. Generate ONE standalone high-resolution website image asset, aspect ratio 3:2. The attached full website screenshot is only a visual reference. Faithfully regenerate this exact depicted asset as new full-frame artwork: The black-and-white photographic portrait inside the blue Tech Leaders cover at top left: young adult woman in side profile facing left with her chin lifted and eyes closed, dark shoulder-length hair, white over-ear headphones, light blouse. Cyan blue backdrop with subtle curved pale blue shapes. Frame head and shoulders generously. Match the reference's people, pose, equipment, lighting, colors, and composition as closely as possible. Do not crop or copy screenshot pixels. Do not generate a website, collage, UI, border, or watermark. No lettering unless explicitly specified.",
+      "file": "hero-leader.png"
+    },
+    {
+      "name": "hero-founder",
+      "reference": "home",
+      "prompt": "Use case: photorealistic-natural. Generate ONE standalone high-resolution website image asset, aspect ratio 3:2. The attached full website screenshot is only a visual reference. Faithfully regenerate this exact depicted asset as new full-frame artwork: The black-and-white photographic portrait in the yellow Founders Unfiltered cover at top right: young adult man seen from rear three-quarter profile facing left, short dark straight hair, white over-ear headphones, gray hoodie. Lemon yellow backdrop, subtle soft arcs. Frame head and shoulders. Match the reference's people, pose, equipment, lighting, colors, and composition as closely as possible. Do not crop or copy screenshot pixels. Do not generate a website, collage, UI, border, or watermark. No lettering unless explicitly specified.",
+      "file": "hero-founder.png"
+    },
+    {
+      "name": "home-banner",
+      "reference": "home",
+      "prompt": "Use case: photorealistic-natural. Generate ONE standalone high-resolution website image asset, aspect ratio 3:2. The attached full website screenshot is only a visual reference. Faithfully regenerate this exact depicted asset as new full-frame artwork: The woman on the right side of the peach brand-results banner halfway down the landing page: light olive skin, long dark brown wavy hair, eyes gently closed, head tilted upward toward the upper left, ivory over-ear headphones, beige blouse. Warm peach studio background matching the banner. Portrait in color, subject centered, head and shoulders, no waveform or lettering. Match the reference's people, pose, equipment, lighting, colors, and composition as closely as possible. Do not crop or copy screenshot pixels. Do not generate a website, collage, UI, border, or watermark. No lettering unless explicitly specified.",
+      "file": "home-banner.png"
+    },
+    {
+      "name": "home-work",
+      "reference": "home",
+      "prompt": "Generate ONE standalone high-resolution photographic website asset, aspect ratio 2.4:1. The attached screenshot is ONLY a visual reference. Newly generate the following depicted artwork, matching the reference's subject, pose, lighting, framing and palette as closely as possible: The photo for The Future of Work case study: handsome white adult man with swept-back brown hair and trimmed beard, wearing black headphones and a gray plaid overshirt, smiling as he speaks into a black broadcast microphone. A bright modern loft studio with a leafy plant and softly blurred shelves; daylight from left. Frame chest up in a wide horizontal shot, man left-center. Output the complete standalone artwork. NO screenshot cropping, no surrounding website, no montage of alternatives, no UI buttons, no watermark. No text except explicitly specified in the asset description.",
+      "file": "home-work.png"
+    },
+    {
+      "name": "home-builders",
+      "reference": "home",
+      "prompt": "Generate ONE standalone high-resolution photographic website asset, aspect ratio 2.4:1. The attached screenshot is ONLY a visual reference. Newly generate the following depicted artwork, matching the reference's subject, pose, lighting, framing and palette as closely as possible: The photo for Builders & Visionaries: smiling young adult woman with long chestnut hair in black over-ear headphones and a taupe blouse, facing slightly toward the right while speaking into a black studio microphone. Warm daylight, modern airy studio with blurred wood details, candid chest-up wide photograph. Output the complete standalone artwork. NO screenshot cropping, no surrounding website, no montage of alternatives, no UI buttons, no watermark. No text except explicitly specified in the asset description.",
+      "file": "home-builders.png"
+    },
+    {
+      "name": "home-tech",
+      "reference": "home",
+      "prompt": "Generate ONE standalone high-resolution photographic website asset, aspect ratio 2.4:1. The attached screenshot is ONLY a visual reference. Newly generate the following depicted artwork, matching the reference's subject, pose, lighting, framing and palette as closely as possible: The photo for Tech for a Better Tomorrow: young adult white man with short swept brown hair, trimmed beard and rectangular eyeglasses, black headphones and pale gray button-up shirt, speaking toward right into black microphone on boom arm. Modern dark kitchen/studio, bright window at right, photoreal wide horizontal chest-up composition. Output the complete standalone artwork. NO screenshot cropping, no surrounding website, no montage of alternatives, no UI buttons, no watermark. No text except explicitly specified in the asset description.",
+      "file": "home-tech.png"
+    },
+    {
+      "name": "asset-phone",
+      "reference": "home",
+      "prompt": "Generate ONE standalone high-resolution photographic website asset, aspect ratio 2.2:1. The attached screenshot is ONLY a visual reference. Newly generate the following depicted artwork, matching the reference's subject, pose, lighting, framing and palette as closely as possible: Recreate the premium podcast brand asset composition near the bottom of the reference: freestanding realistic black smartphone at left showing a clean white and coral podcast player for 'The Growth Show' with cover art of a Black adult with short twists and white headphones on coral pink. Beside it, two square editorial podcast promotional artwork tiles: one with a thoughtful dark-haired bearded male host and exact white/coral text 'TURN IDEAS INTO IMPACT', the other with the same Black adult in white headphones and exact black text 'THE GROWTH SHOW'. Below the tiles a horizontal white audio-player card with a small circular headshot, 'Alex Rivera', 'The Growth Show', waveform, and '2:38'. Pale warm white studio background, soft realistic shadows, front-facing clean product mockup, complete objects in frame. This asset itself is a product mockup, not the surrounding website. Output the complete standalone artwork. NO screenshot cropping, no surrounding website, no montage of alternatives, no UI buttons, no watermark. No text except explicitly specified in the asset description.",
+      "file": "asset-phone.png"
+    },
+    {
+      "name": "course-hero",
+      "reference": "course",
+      "prompt": "Generate ONE standalone high-resolution photographic website asset, aspect ratio 5:4. The attached screenshot is ONLY a visual reference. Newly generate the following depicted artwork, matching the reference's subject, pose, lighting, framing and palette as closely as possible: The main course hero portrait: joyful young adult woman with medium olive skin, dark shoulder-length curly hair, closed eyes and wide natural smile, large ivory over-ear headphones, cream shirt. Head angled slightly up toward left. Warm neutral beige studio backdrop. Tight head-and-shoulders color photograph. No lesson card, no text, no overlays. Output the complete standalone artwork. NO screenshot cropping, no surrounding website, no montage of alternatives, no UI buttons, no watermark. No text except explicitly specified in the asset description.",
+      "file": "course-hero.png"
+    },
+    {
+      "name": "course-desk",
+      "reference": "course",
+      "prompt": "Generate ONE standalone high-resolution photographic website asset, aspect ratio 1.6:1. The attached screenshot is ONLY a visual reference. Newly generate the following depicted artwork, matching the reference's subject, pose, lighting, framing and palette as closely as possible: The course introduction photograph: black large-diaphragm condenser microphone in black shock mount on a short desktop stand on a light oak desk, black padded over-ear headphones resting immediately to its left. Green leafy houseplant behind at right, warm blurred loft home studio, daylight and amber accents, shallow depth of field. Full microphone and headphones visible, no overlays. Output the complete standalone artwork. NO screenshot cropping, no surrounding website, no montage of alternatives, no UI buttons, no watermark. No text except explicitly specified in the asset description.",
+      "file": "course-desk.png"
+    },
+    {
+      "name": "course-person",
+      "reference": "course",
+      "prompt": "Generate ONE standalone high-resolution photographic website asset, aspect ratio 5:4. The attached screenshot is ONLY a visual reference. Newly generate the following depicted artwork, matching the reference's subject, pose, lighting, framing and palette as closely as possible: The course testimonial photo: smiling white adult man with thick swept-back brown hair, short trimmed beard, black over-ear headphones and charcoal button-up shirt, speaking into a black broadcast microphone projecting from right. Tight chest-up portrait, warm modern studio, light neutral background and soft daylight, face angled right. Output the complete standalone artwork. NO screenshot cropping, no surrounding website, no montage of alternatives, no UI buttons, no watermark. No text except explicitly specified in the asset description.",
+      "file": "course-person.png"
+    },
+    {
+      "name": "case-feature",
+      "reference": "cases",
+      "prompt": "Generate ONE standalone high-resolution photographic website asset, aspect ratio 1.46:1. The attached screenshot is ONLY a visual reference. Newly generate the following depicted artwork, matching the reference's subject, pose, lighting, framing and palette as closely as possible: The featured TechForward photo: three adults recording a podcast around an oak table in a warm contemporary studio. Left: white man with brown hair and short beard, black headphones, blue-gray plaid shirt in profile. Center: smiling woman with long brown hair, black headphones, cream blouse. Right: Black man with short textured hair, charcoal T-shirt, black headphones. Black microphones before each person, an open silver laptop center foreground and clear water glasses. Amber pendant lamp upper left, leafy plants, wood shelves, cozy studio bokeh. Natural candid conversation. No play button or text. Output the complete standalone artwork. NO screenshot cropping, no surrounding website, no montage of alternatives, no UI buttons, no watermark. No text except explicitly specified in the asset description.",
+      "file": "case-feature.png"
+    },
+    {
+      "name": "case-founder",
+      "reference": "cases",
+      "prompt": "Generate ONE standalone high-resolution photographic website asset, aspect ratio 2.5:1. The attached screenshot is ONLY a visual reference. Newly generate the following depicted artwork, matching the reference's subject, pose, lighting, framing and palette as closely as possible: Top-left success story photograph: young light olive-skinned woman with long wavy brown hair, beige blouse and dark headphones, smiling in three-quarter profile toward left into a black studio microphone. Warm home studio, leafy plants and amber practical lighting. Wide horizontal shoulder-up composition. Output the complete standalone artwork. NO screenshot cropping, no surrounding website, no montage of alternatives, no UI buttons, no watermark. No text except explicitly specified in the asset description.",
+      "file": "case-founder.png"
+    },
+    {
+      "name": "case-growth",
+      "reference": "cases",
+      "prompt": "Generate ONE standalone high-resolution photographic website asset, aspect ratio 2.5:1. The attached screenshot is ONLY a visual reference. Newly generate the following depicted artwork, matching the reference's subject, pose, lighting, framing and palette as closely as possible: Top-middle success story photo: smiling white adult man with short tousled brown hair and trimmed beard, gray overshirt and black over-ear headphones, talking toward a black broadcast microphone from right. Warm orange bokeh lights and plants in modern studio, wide horizontal shoulder-up composition. Output the complete standalone artwork. NO screenshot cropping, no surrounding website, no montage of alternatives, no UI buttons, no watermark. No text except explicitly specified in the asset description.",
+      "file": "case-growth.png"
+    },
+    {
+      "name": "case-health",
+      "reference": "cases",
+      "prompt": "Generate ONE standalone high-resolution photographic website asset, aspect ratio 2.5:1. The attached screenshot is ONLY a visual reference. Newly generate the following depicted artwork, matching the reference's subject, pose, lighting, framing and palette as closely as possible: Top-right HealthThrive success story photo: smiling young adult East Asian woman with long dark brown hair and ivory over-ear headphones, cream blouse, seated at black microphone on left, looking slightly left. Soft daylight, dark blurred studio shelving and warm practical light, wide horizontal chest-up photograph. Output the complete standalone artwork. NO screenshot cropping, no surrounding website, no montage of alternatives, no UI buttons, no watermark. No text except explicitly specified in the asset description.",
+      "file": "case-health.png"
+    },
+    {
+      "name": "case-creative",
+      "reference": "cases",
+      "prompt": "Generate ONE standalone high-resolution photographic website asset, aspect ratio 2.5:1. The attached screenshot is ONLY a visual reference. Newly generate the following depicted artwork, matching the reference's subject, pose, lighting, framing and palette as closely as possible: Bottom-left Creative Conversation success story photograph: thoughtful young adult Black man with short cropped curls and a short beard, wearing black over-ear headphones and dark charcoal shirt, speaking toward a large black microphone entering from right. Cool modern studio shelves behind with restrained warm bokeh. Wide shoulder-up photo. Output the complete standalone artwork. NO screenshot cropping, no surrounding website, no montage of alternatives, no UI buttons, no watermark. No text except explicitly specified in the asset description.",
+      "file": "case-creative.png"
+    },
+    {
+      "name": "case-money",
+      "reference": "cases",
+      "prompt": "Generate ONE standalone high-resolution photographic website asset, aspect ratio 2.5:1. The attached screenshot is ONLY a visual reference. Newly generate the following depicted artwork, matching the reference's subject, pose, lighting, framing and palette as closely as possible: Bottom-middle Money Matters photo: young adult woman with long glossy chestnut hair and warm olive skin, ivory over-ear headphones and a taupe blouse, smiling brightly toward right beside a black broadcast microphone. Soft window daylight, blurred green plants and dark studio wall, wide shoulder-up photo. Output the complete standalone artwork. NO screenshot cropping, no surrounding website, no montage of alternatives, no UI buttons, no watermark. No text except explicitly specified in the asset description.",
+      "file": "case-money.png"
+    },
+    {
+      "name": "case-future",
+      "reference": "cases",
+      "prompt": "Generate ONE standalone high-resolution photographic website asset, aspect ratio 2.5:1. The attached screenshot is ONLY a visual reference. Newly generate the following depicted artwork, matching the reference's subject, pose, lighting, framing and palette as closely as possible: Bottom-right Future Builders photo: smiling adult man with olive skin, thick swept dark hair and neatly trimmed dark beard, black over-ear headphones and olive green shirt, looking upward toward left, black microphone entering lower left. Amber studio bulbs and dark wood bokeh background, wide shoulder-up shot. Output the complete standalone artwork. NO screenshot cropping, no surrounding website, no montage of alternatives, no UI buttons, no watermark. No text except explicitly specified in the asset description.",
+      "file": "case-future.png"
+    },
+    {
+      "name": "blog-headphones",
+      "reference": "blog",
+      "prompt": "Generate ONE standalone high-resolution photographic website asset, aspect ratio 4:5. The attached screenshot is ONLY a visual reference. Newly generate this artwork, matching its subject, pose, lighting, framing and palette: The featured article product image: premium matte black and dark brown leather over-ear studio headphones with rounded padded cups on a pale peach circular pedestal, nested inside sculptural peach ribbon loops and large warm-white circular ring. Soft coral-pink studio backdrop, warm product lighting, realistic leather grain, isolated luxury product composition. No text or article card. Complete standalone artwork. NO screenshot cropping, surrounding website, montage, UI buttons or watermark. No text except explicitly specified.",
+      "file": "blog-headphones.png"
+    },
+    {
+      "name": "blog-growth",
+      "reference": "blog",
+      "prompt": "Generate ONE standalone high-resolution photographic website asset, aspect ratio 2.2:1. The attached screenshot is ONLY a visual reference. Newly generate this artwork, matching its subject, pose, lighting, framing and palette: The top-left blog article photograph: beautiful young adult woman with medium olive skin and long dark curly hair, ivory headphones, white blouse, eyes peacefully closed as she smiles slightly while speaking into a large black microphone at left. Warm golden studio lighting, blurred plants and lamps, wide landscape head-and-shoulders photograph. Complete standalone artwork. NO screenshot cropping, surrounding website, montage, UI buttons or watermark. No text except explicitly specified.",
+      "file": "blog-growth.png"
+    },
+    {
+      "name": "blog-mics",
+      "reference": "blog",
+      "prompt": "Generate ONE standalone high-resolution photographic website asset, aspect ratio 2.2:1. The attached screenshot is ONLY a visual reference. Newly generate this artwork, matching its subject, pose, lighting, framing and palette: Top-middle blog article photo: black condenser microphone and pop filter on a desk at left, open dark laptop at right displaying blue and pink audio waveforms on a dark screen. White coffee mug and green leafy potted plants, warm oak desk, bright neutral home studio, natural daylight, full objects in frame, wide landscape. Complete standalone artwork. NO screenshot cropping, surrounding website, montage, UI buttons or watermark. No text except explicitly specified.",
+      "file": "blog-mics.png"
+    },
+    {
+      "name": "blog-strategy",
+      "reference": "blog",
+      "prompt": "Generate ONE standalone high-resolution photographic website asset, aspect ratio 2.2:1. The attached screenshot is ONLY a visual reference. Newly generate this artwork, matching its subject, pose, lighting, framing and palette: Top-right blog article photo: young white adult man with swept brown hair and short beard, black over-ear headphones, light blue-gray shirt over white tee, smiling toward right into black broadcast microphone. Bright warm cream studio with blurred amber pendant lights, wide landscape chest-up. Complete standalone artwork. NO screenshot cropping, surrounding website, montage, UI buttons or watermark. No text except explicitly specified.",
+      "file": "blog-strategy.png"
+    },
+    {
+      "name": "blog-interview",
+      "reference": "blog",
+      "prompt": "Generate ONE standalone high-resolution photographic website asset, aspect ratio 2.2:1. The attached screenshot is ONLY a visual reference. Newly generate this artwork, matching its subject, pose, lighting, framing and palette: Middle-left blog photo: joyful young adult woman with medium brown skin and voluminous shoulder-length dark curls, white over-ear headphones, white blouse, looking upward-left with a broad smile, black microphone tip at lower left. Warm luminous cream and gold studio with green plant bokeh, wide landscape close portrait. Complete standalone artwork. NO screenshot cropping, surrounding website, montage, UI buttons or watermark. No text except explicitly specified.",
+      "file": "blog-interview.png"
+    },
+    {
+      "name": "blog-industry",
+      "reference": "blog",
+      "prompt": "Generate ONE standalone high-resolution photographic website asset, aspect ratio 2.2:1. The attached screenshot is ONLY a visual reference. Newly generate this artwork, matching its subject, pose, lighting, framing and palette: Middle-right blog photo: three young adult friends recording a podcast, man at left with dark curly hair, short beard, black glasses and black headphones; smiling woman with long light brown hair at center and smiling dark-haired woman at right, all wearing black headphones. Black broadcast microphones in foreground. Warm bright contemporary studio, candid lively conversation, wide horizontal photo. Complete standalone artwork. NO screenshot cropping, surrounding website, montage, UI buttons or watermark. No text except explicitly specified.",
+      "file": "blog-industry.png"
+    },
+    {
+      "name": "blog-topics",
+      "reference": "blog",
+      "prompt": "Generate ONE standalone high-resolution photographic website asset, aspect ratio 2.2:1. The attached screenshot is ONLY a visual reference. Newly generate this artwork, matching its subject, pose, lighting, framing and palette: Middle-center blog photo: overhead slightly angled oak desk scene, an open cream spiral notebook diagonally placed with exact hand-lettered black text on separate lines: 'Good', 'Podcasts', 'Better', 'Brands'. A white ceramic coffee cup filled with dark coffee at upper right, green houseplant leaves around corners, warm daylight, elegant authentic stationery still life. No extra text. Complete standalone artwork. NO screenshot cropping, surrounding website, montage, UI buttons or watermark. No text except explicitly specified.",
+      "file": "blog-topics.png"
+    },
+    {
+      "name": "blog-money",
+      "reference": "blog",
+      "prompt": "Generate ONE standalone high-resolution photographic website asset, aspect ratio 2.2:1. The attached screenshot is ONLY a visual reference. Newly generate this artwork, matching its subject, pose, lighting, framing and palette: Bottom-middle blog photo: young adult woman with long wavy brown hair in ivory over-ear headphones and ivory blouse, smiling while gesturing naturally with both hands in front of her as she records. Black studio microphone to left. Warm elegant studio, leafy plants, blurred amber lighting, horizontal chest-up shot. Complete standalone artwork. NO screenshot cropping, surrounding website, montage, UI buttons or watermark. No text except explicitly specified.",
+      "file": "blog-money.png"
+    },
+    {
+      "name": "blog-case",
+      "reference": "blog",
+      "prompt": "Generate ONE standalone high-resolution photographic website asset, aspect ratio 2.2:1. The attached screenshot is ONLY a visual reference. Newly generate this artwork, matching its subject, pose, lighting, framing and palette: Bottom-right blog photographic graphic: close-up of a professional large matte-black condenser microphone dominating the RIGHT half, with sharp detailed black metal mesh grille, softly blurred warm beige and amber studio background. On the LEFT exact white sans-serif text on three lines: 'More', 'Human', 'Conversations'. Subtle dark translucent brown rectangle behind lettering as in reference. Wide horizontal editorial banner. Complete standalone artwork. NO screenshot cropping, surrounding website, montage, UI buttons or watermark. No text except explicitly specified.",
+      "file": "blog-case.png"
+    },
+    {
+      "name": "blog-workflow",
+      "reference": "blog",
+      "prompt": "Generate ONE standalone high-resolution photographic website asset, aspect ratio 2.2:1. The attached screenshot is ONLY a visual reference. Newly generate this artwork, matching its subject, pose, lighting, framing and palette: Bottom-left blog image: overhead warm oak desk still life with diagonally positioned open cream grid notebook. Exact handwritten bullet list in black: 'Plan', 'Record', 'Edit', 'Grow', 'Repeat'. Black pen resting along right side of notebook, white coffee cup filled with dark coffee upper right, leafy plant upper left. Natural warm window light, photoreal stationery. Complete standalone artwork. NO screenshot cropping, surrounding website, montage, UI buttons or watermark. No text except explicitly specified.",
+      "file": "blog-workflow.png"
+    },
+    {
+      "name": "services-hero",
+      "reference": "services",
+      "prompt": "Generate ONE standalone high-resolution photographic website asset, aspect ratio 1:1. The attached screenshot is ONLY a visual reference. Newly generate this artwork, matching its subject, pose, lighting, framing and palette: The main services hero photograph: black professional condenser microphone in a shock mount at left foreground; large over-ear black headphones resting on wood desk in lower right; large monitor behind showing blue audio waveforms against dark editing interface; cozy studio with amber lighting and blurred equipment. Close-up studio product photography, square full composition. No statistic card or audio controls. Complete standalone artwork. NO screenshot cropping, surrounding website, montage, UI buttons or watermark. No text except explicitly specified.",
+      "file": "services-hero.png"
+    },
+    {
+      "name": "services-banner",
+      "reference": "services",
+      "prompt": "Generate ONE standalone high-resolution photographic website asset, aspect ratio 3:1. The attached screenshot is ONLY a visual reference. Newly generate this artwork, matching its subject, pose, lighting, framing and palette: The long services banner photographic background: professional black condenser microphone standing on oak desk near center-right, premium black headphones resting to its right. Warm amber light, dark softly blurred brown wall at left with broad negative space, green plant and bokeh studio shelves behind equipment. Panoramic horizontal photo, all equipment fully visible. No words, no buttons, no overlays. Complete standalone artwork. NO screenshot cropping, surrounding website, montage, UI buttons or watermark. No text except explicitly specified.",
+      "file": "services-banner.png"
+    },
+    {
+      "name": "services-team",
+      "reference": "services",
+      "prompt": "Generate ONE standalone high-resolution photographic website asset, aspect ratio 1:1. The attached screenshot is ONLY a visual reference. Newly generate this artwork, matching its subject, pose, lighting, framing and palette: The partner-in-growth image: three smiling adult colleagues at a silver laptop in a warm podcast studio: dark-haired man with neat beard at left in pale gray shirt, smiling brown-haired woman in middle, dark-haired man in profile at right. Friendly candid discussion around table, green plant and warm amber background. Square photo, no play button. Complete standalone artwork. NO screenshot cropping, surrounding website, montage, UI buttons or watermark. No text except explicitly specified.",
+      "file": "services-team.png"
+    },
+    {
+      "name": "services-plan",
+      "reference": "services",
+      "prompt": "Generate ONE standalone high-resolution photographic website asset, aspect ratio 1.6:1. The attached screenshot is ONLY a visual reference. Newly generate this artwork, matching its subject, pose, lighting, framing and palette: The small strategy tab still-life photo: cream open notebook on warm oak tabletop at left with exact handwritten black text 'Ideas', an arrow and 'Strategy', an arrow and 'Impact'. Large cream ceramic mug to right with exact stacked dark text 'Better', 'Conversations', 'Bigger', 'Opportunities'. Softly blurred plant leaves and amber studio light. Warm photo, no UI elements. Complete standalone artwork. NO screenshot cropping, surrounding website, montage, UI buttons or watermark. No text except explicitly specified.",
+      "file": "services-plan.png"
+    },
+    {
+      "name": "about-hero",
+      "reference": "about",
+      "prompt": "Generate ONE standalone high-resolution photographic website asset, aspect ratio 1.3:1. The attached screenshot is ONLY a visual reference. Newly generate this artwork, matching its subject, pose, lighting, framing and palette: The main about-page hero photograph: cheerful young woman with olive skin and long brown hair, black over-ear headphones and beige textured collared blouse, seated in foreground right with one hand lightly near chin, speaking into a black studio microphone at lower left. Behind her at left a smiling man with brown hair and neat beard, black headphones and cream shirt, softly out of focus, holding his hands conversationally. Warm contemporary recording studio and green plants, cinematic natural daylight. No text, no floating cards. Complete standalone artwork. NO screenshot cropping, surrounding website, montage, UI buttons or watermark. No text except explicitly specified.",
+      "file": "about-hero.png"
+    },
+    {
+      "name": "about-story",
+      "reference": "about",
+      "prompt": "Generate ONE standalone high-resolution photographic website asset, aspect ratio 1.5:1. The attached screenshot is ONLY a visual reference. Newly generate this artwork, matching its subject, pose, lighting, framing and palette: About-page our-story photograph: black condenser podcast microphone in a shock mount on a slim black tabletop stand on warm wood desk, a white ceramic coffee mug beside it bearing small black vertical audio waveform logo and exact lowercase text 'vocality'. Warm daylight home studio with dark monitor left, green plant and softly blurred amber neutral background. Complete microphone and mug visible, no information card or text overlay. Complete standalone artwork. NO screenshot cropping, surrounding website, montage, UI buttons or watermark. No text except explicitly specified.",
+      "file": "about-story.png"
+    },
+    {
+      "name": "alex",
+      "reference": "about",
+      "prompt": "Generate ONE standalone high-resolution photographic website asset, aspect ratio 4:3. The attached screenshot is ONLY a visual reference. Newly generate this artwork, matching its subject, pose, lighting, framing and palette: The first Meet The Team headshot, Alex Carter: smiling white man about 32, thick short dark brown hair styled back, neat full short beard, black collared shirt, shoulders and head centered looking directly into camera. Warm bright modern office background with green plant softly blurred. Natural professional portrait, no text. Complete standalone artwork. NO screenshot cropping, surrounding website, montage, UI buttons or watermark. No text except explicitly specified.",
+      "file": "alex.png"
+    },
+    {
+      "name": "sophie",
+      "reference": "about",
+      "prompt": "Generate ONE standalone high-resolution photographic website asset, aspect ratio 4:3. The attached screenshot is ONLY a visual reference. Newly generate this artwork, matching its subject, pose, lighting, framing and palette: The second Meet The Team headshot, Sophie Lin: smiling young adult East Asian woman, long straight chestnut brown hair swept over one shoulder, cream blouse, shoulders and head centered looking into camera. Bright modern office background with soft neutral window light. Natural friendly professional portrait, no text. Complete standalone artwork. NO screenshot cropping, surrounding website, montage, UI buttons or watermark. No text except explicitly specified.",
+      "file": "sophie.png"
+    },
+    {
+      "name": "daniel",
+      "reference": "about",
+      "prompt": "Generate ONE standalone high-resolution photographic website asset, aspect ratio 4:3. The attached screenshot is ONLY a visual reference. Newly generate this artwork, matching its subject, pose, lighting, framing and palette: The third Meet The Team headshot, Daniel Khan: smiling South Asian man about 30, short black hair, neat dark beard, dark navy-black crewneck shirt, head and shoulders centered looking into camera. Warm bright contemporary office with leafy plant softly blurred. Natural friendly professional portrait, no text. Complete standalone artwork. NO screenshot cropping, surrounding website, montage, UI buttons or watermark. No text except explicitly specified.",
+      "file": "daniel.png"
+    },
+    {
+      "name": "maya",
+      "reference": "about",
+      "prompt": "Generate ONE standalone high-resolution photographic website asset, aspect ratio 4:3. The attached screenshot is ONLY a visual reference. Newly generate this artwork, matching its subject, pose, lighting, framing and palette: The fourth Meet The Team headshot, Maya Patel: smiling young adult woman with medium brown skin and shoulder-length voluminous dark curly hair, cream top, head and shoulders centered looking directly into camera. Soft warm neutral office background. Natural friendly professional portrait, no text. Complete standalone artwork. NO screenshot cropping, surrounding website, montage, UI buttons or watermark. No text except explicitly specified.",
+      "file": "maya.png"
+    },
+    {
+      "name": "contact-hero",
+      "reference": "contact",
+      "prompt": "Generate ONE standalone high-resolution photographic website asset, aspect ratio 1:1. The attached screenshot is ONLY a visual reference. Newly generate this artwork, matching its subject, pose, lighting, framing and palette: The contact-page hero photograph: warm modern podcast room with an oak desk, a tall professional black condenser microphone in a shock mount on a black desk stand at center-left, black over-ear headphones on tabletop beside its base, corner of silver laptop in lower left, empty charcoal upholstered chair at right. Tall bright window left, leafy green plant behind microphone, beige wall right with exact black text on two lines 'Good conversations.' and 'Greater opportunities.' and a thin coral hand-drawn underline. Natural soft daylight mixed with warm studio glow. Full scene, no contact cards or website UI. Complete standalone artwork. NO screenshot cropping, surrounding website, montage, UI buttons or watermark. No text except explicitly specified.",
+      "file": "contact-hero.png"
+    },
+    {
+      "name": "lucas",
+      "reference": "about",
+      "prompt": "Generate ONE standalone high-resolution photographic website asset, aspect ratio 4:3. The attached screenshot is ONLY a visual reference. Newly generate this artwork, matching its subject, pose, lighting, framing and palette: The fifth Meet The Team headshot, Lucas Brooks: smiling young white adult man with curly medium brown hair, short brown beard and black rounded rectangular eyeglasses, black crewneck shirt, head and shoulders centered looking into camera. Bright neutral modern office background. Natural professional portrait, no text. Complete standalone artwork. NO screenshot cropping, surrounding website, montage, UI buttons or watermark. No text except explicitly specified.",
+      "file": "lucas.png"
+    },
+    {
+      "name": "cases-hero",
+      "reference": "cases",
+      "prompt": "Generate ONE standalone photographic hero asset, square 1:1. Use the attached case-studies website screenshot solely as visual reference for the TOP RIGHT woman. Recreate a smiling woman with voluminous curly dark hair, light warm brown skin, cream white over-ear headphones, ivory blouse, eyes softly closed, head slightly tilted back toward left. A black upright podcast microphone in front on the left. Waist-up composition on a soft pale peach background, bright natural studio lighting. Match the reference subject, expression, pose and colors closely. No website, no text, no buttons, no floating cards, no cropping a screenshot; a newly generated complete photograph.",
+      "file": "cases-hero.png"
+    }
+  ]
+}
