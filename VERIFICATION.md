@@ -26,4 +26,15 @@ Asset replacement checks:
 
 The recreation is responsive HTML with individually generated artwork. The new images follow the references but are not pixel-identical reproductions. This was a visual and functional review, not a certification of pixel-for-pixel equivalence or a cross-browser compatibility audit.
 
-PODBACKEND rename and podcast integration (September 26, 2026): production compilation and TypeScript checks passed after the rename. Play buttons now open two attributed official ART19 business podcast embeds. The provider endpoint returned HTTP 200, but audible playback has not been verified; the preview browser displayed a blank embed. Each player also links to the official episode page. Video lessons, booking and WhatsApp destinations, social profiles, email delivery, and final business policies were not supplied. Production setup requirements are described in README.md.
+PODBACKEND rename: production compilation and TypeScript checks passed after the rename. Video lessons, booking and WhatsApp destinations, social profiles, email delivery, and final business policies were not supplied. Production setup requirements are described in README.md.
+
+
+Podcast expansion (completed September 29, 2026):
+
+- 18 distinct episodes assigned explicitly to all 18 listening buttons: six homepage players, two service players, seven case-study players, and three course players.
+- All 18 publisher pages and all 18 original RSS audio enclosure URLs returned HTTP 200; all audio responses were audio/mpeg.
+- Browser checks opened every player and confirmed 18 distinct audio URLs and the matching episode titles.
+- Native audio playback was verified for the technology leadership episode: paused=false, playback time advanced to 112 seconds, and duration loaded as approximately 2,438 seconds. Full listening to all 18 recordings was not performed.
+- No browser console warnings or errors during the final checks.
+- Production build and TypeScript checks passed.
+- Replaced the blank third-party iframe with native audio controls, publisher attribution, publication date, error feedback, and an official episode-page link. Audio is streamed from the publisher, not rehosted.

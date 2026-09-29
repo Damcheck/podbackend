@@ -39,7 +39,7 @@ The WhatsApp and booking calls to action open the working contact form because n
 
 The images contain sample brand claims, client metrics and testimonials; these have been reproduced as supplied visual content, not independently verified. Search indexing is disabled until those details are approved for public launch.
 
-Play buttons open official ART19 embedded players for two curated business podcast episodes from Masters of Scale and Think Fast, Talk Smart. Actual show and episode attribution appears alongside each player; these external shows are not represented as PODBACKEND productions. Visitors start playback inside the official player, and can select either episode or open its publisher page. Playback needs internet access and is subject to provider availability. The free course remains six original written lessons and exercises.
+Each of the 18 podcast play buttons opens its own topic-matched episode, drawn from Masters of Scale, Social Media Marketing Podcast, AskPat 2.0, and Reimagine. Native audio controls stream the original public RSS recording directly from the publisher, with play/pause, seeking, volume, attribution, publication date, an error state, and a publisher-page link. No audio is downloaded or rehosted. See PODCASTS.md for all assignments. The free course remains six written lessons and exercises.
 
 ## Checks
 
