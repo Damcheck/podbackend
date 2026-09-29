@@ -1,6 +1,6 @@
 # PODBACKEND
 
-A seven-page responsive Next.js website recreated from the supplied PODBACKEND visual references. The homepage header and footer are shared across every page.
+An eight-page responsive Next.js website recreated from the supplied PODBACKEND visual references. The homepage header and footer are shared across every page.
 
 ## Run
 
@@ -24,6 +24,7 @@ On Windows, you can also open `Start Website.cmd` after installing Node.js. Keep
 - `/blog` — search, category filters, sorting and nine article pages
 - `/free-podcast-course` — six written lessons, with local completion storage
 - `/contact` — contact options, partner testimonial carousel and FAQs
+- `/reviews` — 27 attributed industry review summaries with search, service filters, and original source links
 
 ## Implementation
 
@@ -49,3 +50,8 @@ npm run build
 ```
 
 Production route and form checks are summarized in `VERIFICATION.md`.
+
+
+## Reviews collection
+
+The Reviews page summarizes public feedback about five other podcast service providers. It explicitly distinguishes these from PODBACKEND customer reviews. Every card links to its source and identifies whether it is a provider-published testimonial or a public Trustpilot review. No fabricated ratings, customer-verification badges, or reviewer portraits are used. Entries are editorial paraphrases; customer relationships and reported outcomes have not been independently verified. Edit src/components/review-data.ts to maintain the collection. Existing reference-design testimonials elsewhere remain sample content as described above.

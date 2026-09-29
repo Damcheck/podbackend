@@ -38,3 +38,11 @@ Podcast expansion (completed September 29, 2026):
 - No browser console warnings or errors during the final checks.
 - Production build and TypeScript checks passed.
 - Replaced the blank third-party iframe with native audio controls, publisher attribution, publication date, error feedback, and an official episode-page link. Audio is streamed from the publisher, not rehosted.
+
+Reviews page (September 29, 2026):
+
+- Added /reviews and shared desktop/mobile menu and footer links.
+- 27 editorial summaries from six public source pages covering five named providers; 26 provider-published testimonials and one public Trustpilot review. Each entry links to its source and is clearly distinguished from PODBACKEND customer feedback.
+- Browser verified pagination from 9 to 18 to 27 cards and 27 source links, search for Zenoti, no-results recovery, and Strategy & Launch filtering (six results).
+- No horizontal overflow at 390px or 820px. Mobile navigation and same-page menu closing verified.
+- Final production build and TypeScript checks passed; browser console showed no warnings or errors.
