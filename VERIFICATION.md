@@ -46,3 +46,5 @@ Reviews page (September 29, 2026):
 - Browser verified pagination from 9 to 18 to 27 cards and 27 source links, search for Zenoti, no-results recovery, and Strategy & Launch filtering (six results).
 - No horizontal overflow at 390px or 820px. Mobile navigation and same-page menu closing verified.
 - Final production build and TypeScript checks passed; browser console showed no warnings or errors.
+
+Review presentation update: retained all 27 summaries and their provider attribution; removed outbound review links and the About this collection section. Source URLs remain in the data for editorial provenance. Production build passed.
