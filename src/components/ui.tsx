@@ -13,7 +13,25 @@ export const icons = { idea: Lightbulb, mic: Mic, edit: SlidersHorizontal, growt
 export type IconName = keyof typeof icons;
 export function Icon({ name = 'audio' }: { name?: IconName }) { const Glyph=icons[name]; return <span className="icon-bubble"><Glyph size={24} strokeWidth={1.8}/></span>; }
 export function Tag({ children }: { children: ReactNode }) { return <span className="eyebrow">{children}</span>; }
-export function Reveal({ children, className = '' }: { children: ReactNode; className?: string }) { const reduced=useReducedMotion(); return <motion.div className={className} initial={{opacity:1,y:reduced?0:12}} whileInView={{y:0}} viewport={{once:true,margin:'0px 0px -20px 0px'}} transition={{duration:.5,ease:[.22,1,.36,1]}}>{children}</motion.div>; }
+export function Reveal({ children, className = '' }: { children: ReactNode; className?: string }) {
+ const ref=useRef<HTMLDivElement>(null); const reduced=useReducedMotion();
+ useEffect(()=>{
+  const root=ref.current;if(!root || reduced!==false)return;
+  const active:Animation[]=[];
+  const observer=new IntersectionObserver(entries=>{
+   if(!entries.some(entry=>entry.isIntersecting))return;
+   const cards=Array.from(root.querySelectorAll<HTMLElement>('.card')).filter(card=>!card.parentElement?.closest('.card'));
+   const targets=cards.length?cards:Array.from(root.children).filter(el=>!el.matches('h1,h2,.process-signal')) as HTMLElement[];
+   targets.forEach((el,i)=>active.push(el.animate([
+    {translate:`${i%2?-12:12}px 32px`,opacity:.25,scale:'.975'},
+    {translate:'0px 0px',opacity:1,scale:'1'}
+   ],{duration:850,delay:Math.min(i*85,510),easing:'cubic-bezier(.16,1,.3,1)',fill:'backwards'})));
+   observer.disconnect();
+  },{threshold:.08});observer.observe(root);
+  return()=>{observer.disconnect();active.forEach(a=>a.cancel());};
+ },[reduced]);
+ return <div ref={ref} className={`motion-section ${className}`}>{children}</div>;
+}
 
 type ModalState = { kind: 'contact' | 'episode' | 'lesson' | 'info'; title: string; body?: string; episodeId?: PodcastId } | null;
 const ModalContext=createContext<(value:ModalState)=>void>(()=>{});

@@ -1,4 +1,5 @@
 'use client';
+import { KineticHeading } from './motion-design';
 import {useState} from 'react';
 import {ArrowUpRight, MessageSquareText, Search, SlidersHorizontal} from 'lucide-react';
 import {Tag, Reveal, CTA} from './ui';
@@ -13,12 +14,12 @@ export function Reviews(){
  const providerCount=new Set(Object.values(reviewSources).map(s=>s.provider)).size;
  return <main id="main" className="reviews-page inner-page wrap">
   <section className="reviews-hero">
-   <div><Tag>Podcast service reviews</Tag><h1>Better conversations.<br/>Informed decisions.</h1><p>Explore what creators and businesses value in professional podcast services—from the first recording to a growing audience.</p><a className="button" href="#review-library">Explore the reviews <ArrowUpRight size={18}/></a></div>
+   <div><Tag>Podcast service reviews</Tag><KineticHeading as="h1">Better conversations.<br/>Informed decisions.</KineticHeading><p>Explore what creators and businesses value in professional podcast services—from the first recording to a growing audience.</p><a className="button" href="#review-library">Explore the reviews <ArrowUpRight size={18}/></a></div>
    <div className="reviews-hero-card peach"><MessageSquareText size={42} strokeWidth={1.4}/><span>THE INDUSTRY, IN THEIR EXPERIENCE</span><strong>{industryReviews.length}<small>public reviews & testimonials</small></strong><div><span>{providerCount} service providers</span><Wave/></div></div>
   </section>
-  <aside className="reviews-disclosure card"><span className="icon-bubble"><MessageSquareText size={23}/></span><div><h2>Reviews of other podcast service providers</h2><p>Public feedback about the named providers, not PODBACKEND customer reviews. Summaries reflect published testimonials; customer relationships and results have not been independently verified.</p></div></aside>
+  <aside className="reviews-disclosure card"><span className="icon-bubble"><MessageSquareText size={23}/></span><div><KineticHeading>Reviews of other podcast service providers</KineticHeading><p>Public feedback about the named providers, not PODBACKEND customer reviews. Summaries reflect published testimonials; customer relationships and results have not been independently verified.</p></div></aside>
   <section id="review-library" aria-labelledby="reviews-heading">
-   <div className="section-heading"><div><Tag>Explore the collection</Tag><h2 id="reviews-heading">What matters to podcast creators.</h2></div><p>Sources checked 29 September 2026</p></div>
+   <div className="section-heading"><div><Tag>Explore the collection</Tag><KineticHeading id="reviews-heading">What matters to podcast creators.</KineticHeading></div><p>Sources checked 29 September 2026</p></div>
    <div className="reviews-toolbar"><label className="review-search"><Search size={19}/><input type="search" aria-label="Search reviews" placeholder="Search people, providers, or feedback…" value={query} onChange={e=>{setQuery(e.target.value);setLimit(9);}}/></label><span><SlidersHorizontal size={16}/> Browse by service</span></div>
    <div className="review-filters" role="group" aria-label="Filter reviews by service">{reviewCategories.map(c=><button key={c} aria-pressed={category===c} className={category===c?'selected':''} onClick={()=>{setCategory(c);setLimit(9);}}>{c}</button>)}</div>
    <p className="reviews-count" role="status">Showing {Math.min(limit,filtered.length)} of {filtered.length} reviews{category!=='All'?` · ${category}`:''}</p>
